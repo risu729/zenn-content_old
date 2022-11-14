@@ -1,0 +1,21 @@
+{
+  "name": "risu-zenn-content",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Risu",
+  "license": "CC-BY-4.0",
+  "homepage": "https://zenn.dev/risu729",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/risu729/zenn-content"
+  },
+  "scripts": {
+    "preview": "zenn preview",
+    "article":  "zenn new:article",
+    "book":  "zenn new:book"
+  },
+  "devDependencies": {
+    "textlint": "^12.2.3",
+    "zenn-cli": "^0.1.132"
+  }
+}

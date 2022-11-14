@@ -1,0 +1,39 @@
+{
+  "plugins": {
+    "@textlint/markdown": {
+      "extensions": [
+        ".md"
+      ]
+    }
+  },
+  "filters": {
+    "comments": true
+  },
+  "rules": {
+    "prh": {
+      "rulePaths": [
+        "./prh/index.yml"
+      ]
+    },
+    "preset-ja-technical-writing": {
+      "sentence-length": {
+        "max": 200
+      },
+      "max-comma" : false,
+      "no-exclamation-question-mark": {
+        "allowHalfWidthExclamation": true,
+        "allowHalfWidthQuestion": true
+      },
+      "ja-no-successive-word": false,
+      "ja-no-mixed-period": false,
+      "no-doubled-joshi": false
+    },
+    "preset-ja-spacing": {
+      "ja-space-around-code": {
+        "before": true,
+        "after": true
+      },
+      "ja-space-between-half-and-full-width": false
+    }
+  }
+}
