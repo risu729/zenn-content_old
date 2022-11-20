@@ -19,4 +19,12 @@
 
   // Zenn `published_at` format
   "insertDateString.format": "YYYY-MM-DD hh:mm",
+
+  // GitHub Copilot
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false
+  }
 }

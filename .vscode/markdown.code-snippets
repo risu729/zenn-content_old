@@ -11,12 +11,12 @@
   },
   "codeBlock": {
     "prefix": "code-block",
-    "body": ["```", "", "", "```"],
+    "body": ["```", "", "```"],
     "description": "Code block（Markdown）"
   },
   "codeBlockDiff": {
     "prefix": "code-block-diff",
-    "body": ["```diff ", "", "", "```"],
+    "body": ["```diff ", "", "```"],
     "description": "Code block diff（Markdown）"
   },
   "blockquote": {
