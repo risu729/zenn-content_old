@@ -151,7 +151,7 @@ import java.io.IOException;
 import java.util.function.UnaryOperator;
 import java.util.stream.Collectors;
 
-public final class SnakeCaseEnumAdapterFactory implements TypeAdapterFactory {
+public final class SnakeCaseEnumTypeAdapterFactory implements TypeAdapterFactory {
 
   @Override
   @SuppressWarnings({"unchecked", "rawtypes"})
@@ -188,3 +188,11 @@ public final class SnakeCaseEnumAdapterFactory implements TypeAdapterFactory {
   }
 }
 ```
+
+# `Gson` への適用
+
+```java
+var gson = new GsonBuilder().registerTypeAdapterFactory(new SnakeCaseEnumTypeAdapterFactory()).build();
+```
+
+このように `GsonBuilder` に適用することで使用できます。詳しくはJavadocを参照してください。
