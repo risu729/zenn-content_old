@@ -3,7 +3,7 @@ title: "【Java】GsonでEnumをsnake_caseに変換する"
 emoji: "🐍"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["java", "gson"]
-published: false
+published: true
 ---
 
 # はじめに
