@@ -17,9 +17,9 @@ jobs:
     if: github.actor == 'dependabot[bot]'
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-    
+      - name: Fetch Metadata from Dependabot PRs
+        uses: dependabot/fetch-metadata@v1.3.5
+
       - run: gh pr merge "$PR" --rebase
         env:
           PR: ${{github.event.pull_request.number}}
