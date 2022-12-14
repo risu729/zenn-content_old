@@ -16,6 +16,6 @@
   },
   "devDependencies": {
     "textlint": "^12.2.4",
-    "zenn-cli": "^0.1.133"
+    "zenn-cli": "^0.1.134"
   }
 }
