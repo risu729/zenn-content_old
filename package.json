@@ -15,7 +15,7 @@
     "book":  "zenn new:book"
   },
   "devDependencies": {
-    "textlint": "^12.2.4",
+    "textlint": "^12.3.0",
     "zenn-cli": "^0.1.134"
   }
 }
