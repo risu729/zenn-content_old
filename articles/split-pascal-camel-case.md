@@ -9,7 +9,7 @@ published: true
 # はじめに
 
 JavaでGsonを使っていた際、 `FieldNamingPolicy.LOWER_CASE_WITH_UNDERSCORES` が `aURL -> a_u_r_l` と変換する使えない子で自作する必要があったのでその概要をメモしておきます。
-(記事自体は正規表現についてです。Java以外の言語でも使えるはずです。)
+(記事自体は正規表現についてなので、Java以外の言語でも使えるはずです。)
 > 使えない子のJavaDoc: https://www.javadoc.io/doc/com.google.code.gson/gson/latest/com.google.gson/com/google/gson/FieldNamingPolicy.html#LOWER_CASE_WITH_UNDERSCORES
 
 # 正規表現
