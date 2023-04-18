@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Gson で使える TypeAdapter 集"
 emoji: "👌"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: []

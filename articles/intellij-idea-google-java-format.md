@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Intellij IDEA で Google Java Format を使う"
 emoji: "😽"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: []

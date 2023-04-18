@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Gson で配列の中だけ改行しない方法"
 emoji: "🎃"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: []

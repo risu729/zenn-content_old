@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Spring Boot list values"
 emoji: "🦔"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: []
