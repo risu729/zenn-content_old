@@ -46,7 +46,7 @@ husky とは、Gitフックで任意のプログラムを実行するためのnp
 
 https://github.com/typicode/husky
 
-## lint-staged とは
+### lint-staged とは
 
 lint-staged とは、Git でステージ上の、つまり変更された部分に対してのみ lint や format をするためのnpmライブラリです。
 
