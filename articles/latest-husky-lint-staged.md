@@ -3,7 +3,7 @@ title: "【2023/04最新】husky + lint-staged でコミット前にlintを強�
 emoji: "🚫"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["husky", "lintstaged", "eslint", "javascript", "git"]
-published: false
+published: true
 ---
 
 # はじめに
