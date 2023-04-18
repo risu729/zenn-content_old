@@ -1,7 +1,7 @@
 ---
 title: "Minecraft Win10 (BE/統合版) でチャンク境界/信号強度/明るさ表示、暗視のシェーダーを導入する"
 emoji: "🐉"
-type: "idea" # tech: 技術記事 / idea: アイデア
+type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Minecraft", "minecraftbedrock"]
 published: true
 ---
