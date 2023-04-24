@@ -19,7 +19,7 @@ husky のアプデの影響か古い情報が多く、適当にネットの情�
 husky + lint-staged のインストールは以下をコピペして実行してください。
 
 ```shell
-npx husky-init && npm install && npm install -D lint-staged && npx husky set .husky/pre-commit "npx lint-staged"
+npx husky-init && npm install && npm install --save-dev lint-staged && npx husky set .husky/pre-commit "npx lint-staged"
 ```
 
 lint-staged の設定は、README の #Configuration を読みましょう。
@@ -97,15 +97,13 @@ https://docs.npmjs.com/cli/v9/using-npm/scripts#life-cycle-scripts
 npm install
 ```
 
-3. `npm install -D lint-staged`
+3. `npm install --save-dev lint-staged`
 
 `lint-staged` を追加します。
 
 ```shell
-npm install -D lint-staged
+npm install --save-dev lint-staged
 ```
-
-`-D` は `--save-dev` と同じです。
 
 4. `npx husky set .husky/pre-commit "npx lint-staged"`
 
