@@ -48,6 +48,13 @@ Dependabot uses Node.js v16.20.0
 2 の方法を用いる場合、2023/5/6 時点で Node.js はv16.20.0、npm は 8.19.4 が使われていましたが、更新されるのでエラーメッセージから判断すると良いです。
 :::
 
+:::message
+2023/9/23 更新
+Dependabot の Dockerfile (↓) に Node.js, npm, yarn, pnpm のバージョンが記載されるようになっていました！
+:::
+
+https://github.com/dependabot/dependabot-core/blob/main/npm_and_yarn/Dockerfile
+
 # GitHub の対応について
 
 https://github.com/dependabot/dependabot-core/issues/4072#issuecomment-1413222679
@@ -64,12 +71,13 @@ https://github.com/dependabot/dependabot-core/issues/4072#issuecomment-141322267
 
 # Yarn と pnpm について
 
-Yarn については検証していません。すみません。
+Yarn と pnpm については検証していませんが、おそらく同様の挙動になると思われます。
 もし検証してくださる方がいればコメントに残していただけると助かります。
 
-pnpm は 2023/5/13 現在、Dependabot でサポートされていません。
+~~pnpm は 2023/5/13 現在、Dependabot でサポートされていません。
 以下の通りクローズドベータは開始されているようです。
-https://github.com/dependabot/dependabot-core/issues/1736#issuecomment-1527947075
+https://github.com/dependabot/dependabot-core/issues/1736#issuecomment-1527947075~~
+↑サポートされました！
 
-これらのバージョンについては以下の Dockerfile に記載されています。
+これらのバージョンについても以下の Dockerfile に記載されています。
 https://github.com/dependabot/dependabot-core/blob/main/npm_and_yarn/Dockerfile
