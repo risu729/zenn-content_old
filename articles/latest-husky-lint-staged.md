@@ -1,5 +1,5 @@
 ---
-title: "【2023/04最新】husky + lint-staged でコミット前にlintを強制する方法"
+title: "【2023/09最新】husky + lint-staged でコミット前にlintを強制する方法"
 emoji: "🚫"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["husky", "lintstaged", "eslint", "javascript", "git"]
@@ -11,7 +11,9 @@ published: true
 husky のアプデの影響か古い情報が多く、適当にネットの情報を鵜呑みにしたら動かなかったので書きました。
 
 :::message alert
-この記事は2023/04時点での情報です。
+この記事は2023/09時点での情報です。
+husky は v8.0.3, lint-staged は v14.0.1 となっています。
+どちらもセマンティックバージョニングなので、メジャーバージョンが同じである限りはおそらく問題なく使えるはずです。
 :::
 
 # TL;DR
