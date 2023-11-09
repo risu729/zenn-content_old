@@ -6,4 +6,6 @@ topics: []
 published: false
 ---
 
+Unicode はカオスな文字コード
+
 消しちゃった(´;ω;｀)
